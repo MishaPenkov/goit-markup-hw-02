@@ -1,0 +1,161 @@
+
+/* font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+@font-face {
+    font-family: "Raleway";
+    src:    url("/Style/fonts/raleway-v17-latin-900.woff") format("woff"),
+            url("/Style/fonts/raleway-v17-latin-900.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src:    url("/Style/fonts/roboto-v20-latin-regular.woff") format("woff"),
+            url("/Style/fonts/roboto-v20-latin-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src:    url("/Style/fonts/roboto-v20-latin-500.woff") format("woff"),
+            url("/Style/fonts/roboto-v20-latin-500.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src:    url("/Style/fonts/roboto-v20-latin-700.woff") format("woff"),
+            url("/Style/fonts/roboto-v20-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src:    url("/Style/fonts/roboto-v20-latin-900.woff") format("woff"),
+            url("/Style/fonts/roboto-v20-latin-900.woff2")  format("woff2")
+}
+
+body{
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.list{
+    list-style: none;
+}
+
+.page-title{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.page-header{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact:hover,
+.menu-contact:focus{
+    color: #2196F3;
+}
+
+.menu-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: "Raleway";
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.description{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.head3{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.head2{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.address{
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.menu-contact-footer{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
