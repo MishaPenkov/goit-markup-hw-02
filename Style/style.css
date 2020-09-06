@@ -104,12 +104,31 @@ body{
     text-decoration: none;
 }
 
+.btnport{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.btnport:hover,
+.btnport:focus{
+    color: #ffffff;
+    background-color: #2196F3 ;
+}
+
+.btnport1:hover,
+.btnport1:focus{
+    color: #2196F3;
+    background-color: #2196F3 ;
+}
+
+}
+
+
 .logo{
     text-decoration: none;
 }
 .logoblue{
     font-family: "Raleway";
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -118,7 +137,7 @@ body{
 
 .logoblack{
     font-family: "Raleway";
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -127,7 +146,7 @@ body{
 }
 
 .team-names{
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
