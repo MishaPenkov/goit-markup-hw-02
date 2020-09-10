@@ -4,40 +4,40 @@ font-family: "Roboto", sans-serif; */
 
 @font-face {
     font-family: "Raleway";
-    src:    url("/Style/fonts/raleway-v17-latin-900.woff") format("woff"),
-            url("/Style/fonts/raleway-v17-latin-900.woff2") format("woff2");
+    src:    url("/fonts/raleway-v17-latin-900.woff") format("woff"),
+            url("/fonts/raleway-v17-latin-900.woff2") format("woff2");
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Roboto";
-    src:    url("/Style/fonts/roboto-v20-latin-regular.woff") format("woff"),
-            url("/Style/fonts/roboto-v20-latin-regular.woff2") format("woff2");
+    src:    url("/fonts/roboto-v20-latin-regular.woff") format("woff"),
+            url("/fonts/roboto-v20-latin-regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Roboto";
-    src:    url("/Style/fonts/roboto-v20-latin-500.woff") format("woff"),
-            url("/Style/fonts/roboto-v20-latin-500.woff2") format("woff2");
+    src:    url("/fonts/roboto-v20-latin-500.woff") format("woff"),
+            url("/fonts/roboto-v20-latin-500.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Roboto";
-    src:    url("/Style/fonts/roboto-v20-latin-700.woff") format("woff"),
-            url("/Style/fonts/roboto-v20-latin-700.woff2") format("woff2");
+    src:    url("/fonts/roboto-v20-latin-700.woff") format("woff"),
+            url("/fonts/roboto-v20-latin-700.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face{
     font-family: "Roboto";
-    src:    url("/Style/fonts/roboto-v20-latin-900.woff") format("woff"),
-            url("/Style/fonts/roboto-v20-latin-900.woff2")  format("woff2")
+    src:    url("/fonts/roboto-v20-latin-900.woff") format("woff"),
+            url("/fonts/roboto-v20-latin-900.woff2")  format("woff2")
 }
 
 body{
@@ -105,20 +105,34 @@ body{
 }
 
 .btnport{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     background: #F5F4FA;
-    border-radius: 4px;
+    border: 0;
+  
 }
 .btnport:hover,
 .btnport:focus{
     color: #ffffff;
     background-color: #2196F3 ;
+
 }
 
 .btnport1:hover,
 .btnport1:focus{
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
     color: #2196F3;
     background-color: #2196F3 ;
-}
 
 }
 
@@ -198,4 +212,13 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.h2{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
